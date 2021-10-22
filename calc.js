@@ -55,8 +55,6 @@ ele[i].addEventListener('click',function(e)
                   else
                   break;
                 }
-              //  if(j==-1)
-              //  j=0;
                 s1=reverse(s1);
                 for(k=i+1;k<s.length;k++)
                 {
@@ -68,7 +66,9 @@ ele[i].addEventListener('click',function(e)
                     break;
                 }
                 
-console.log(s1);  console.log(s2); console.log("/");
+console.log(s1);  
+console.log(s2); 
+console.log("/");
                 s1=parseFloat(s1)/parseFloat(s2);
                 console.log(s1);
                 s3+=s.substring(0,j+1);
@@ -106,8 +106,7 @@ console.log(s3);
                   else
                   break;
                 }
-               // if(j==-1)
-               // j=0;
+              
                 s1=reverse(s1);
                 for(k=i+1;k<s.length;k++)
                 {
@@ -124,7 +123,7 @@ console.log(s3);
                 s3+=s.substring(0,j+1);
                 console.log(s3);
                 s3+=s1;
-console.log(s3);
+                console.log(s3);
                 s3+=s.substring(k);
                 s=s3;
                 console.log(s);
@@ -155,8 +154,7 @@ console.log(s3);
                   else
                   break;
                 }
-              // if(j==-1)
-               // j=0;
+            // heloo for git/
                 s1=reverse(s1);
                 console.log(s1);
                 for(k=i+1;k<s.length;k++)
